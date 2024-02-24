@@ -79,7 +79,6 @@ public class JPEGCompressor {
             jpegWriter.setOutput(output);
             IIOImage outputImage = new IIOImage(originalImage, null, null);
             jpegWriter.write(null, outputImage, jpegWriteParam);
-            
         }
     }
     
